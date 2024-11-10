@@ -14,7 +14,6 @@ def generate_unique_code(length):
         code = ""
         for _ in range(length):
             code += random.choice(ascii_uppercase)
-        
         if code not in rooms:
             break
     
